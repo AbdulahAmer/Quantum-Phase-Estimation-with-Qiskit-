@@ -26,6 +26,17 @@ The main opportunities are:
 
 The suggested first milestone is a small, reproducible QPE example checked against its analytic distribution, followed by a corrected version of the paper's table. Algorithm variants and an educational interface are later possibilities, to be discussed before implementation.
 
+## License
+
+Copyright 2020-2026 Abdulah Amer.
+
+This repository uses separate licenses for software and educational content:
+
+- **Source code**, including Python and Qiskit code examples and the archived `original-project-2020/QPE.py`, is licensed under the [Apache License 2.0](LICENSE).
+- **Educational content**, including the original paper (`original-project-2020/FinalProject.pdf`), README files, written explanations, figures, and other non-code educational material, is licensed under [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](LICENSE-CONTENT). The [official license](https://creativecommons.org/licenses/by-nc/4.0/) describes its attribution and noncommercial-use terms.
+
+These licenses apply to the project's original material, including the 2020 archive, unless otherwise noted. The archive's files remain unchanged; this notice records their licensing without modifying the time capsule. Third-party material and dependencies retain their respective licenses.
+
 ## Contact
 
 Questions or comments: abdulahamer97@gmail.com. Please include “Github Quantum Computing” in the subject line.
