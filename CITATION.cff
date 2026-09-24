@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite the Zenodo record for the release you use."
+type: software
+title: Quantum Phase Estimation with Qiskit
+authors:
+  - family-names: Amer
+    given-names: Abdulah
+repository-code: 'https://github.com/AbdulahAmer/Quantum-Phase-Estimation-with-Qiskit-'
+abstract: >-
+  Quantum phase estimation code and educational material, including a preserved
+  2020 course project and its ongoing review and modernization. Software is
+  licensed under Apache-2.0; papers, explanations, figures, and other educational
+  content are licensed under CC-BY-NC-4.0. See LICENSE and LICENSE-CONTENT.
+license:
+  - Apache-2.0
+  - CC-BY-NC-4.0
+keywords:
+  - quantum computing
+  - quantum phase estimation
+  - Qiskit

@@ -1,0 +1,38 @@
+name: Release
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+    inputs:
+      bump:
+        description: Release increment (major requires an explicit manual run)
+        type: choice
+        options: [minor, major]
+        default: minor
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repository-release
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  release:
+    if: github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - name: Verify release logic
+        run: node --test .github/scripts/release.test.cjs
+      - name: Publish source release
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const { release } = require('./.github/scripts/release.cjs');
+            await release({ github, context, core });

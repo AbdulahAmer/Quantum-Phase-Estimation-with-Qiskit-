@@ -26,6 +26,14 @@ The main opportunities are:
 
 The suggested first milestone is a small, reproducible QPE example checked against its analytic distribution, followed by a corrected version of the paper's table. Algorithm variants and an educational interface are later possibilities, to be discussed before implementation.
 
+## Releases and citation
+
+Merges to `master` publish source releases starting at `v1.0.0`, then `v1.1.0`,
+`v1.2.0`, and so on. Major increments require a manual workflow run.
+Once the repository is connected to Zenodo, each new release is archived with
+a DOI. See [release and Zenodo setup instructions](docs/releases.md) and
+[citation metadata](CITATION.cff).
+
 ## License
 
 Copyright 2020-2026 Abdulah Amer.
