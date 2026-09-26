@@ -14,7 +14,9 @@ The archive preserves the three files from commit `491431216e1dd845f250735a085cc
 
 ## Revisiting the project in 2026
 
-The current stage is preservation and assessment. A modern implementation has not been added yet. Future work will live outside the archive so the original remains a stable reference.
+The original archive is preserved, and a companion learning module now provides a small modern Qiskit implementation checked against the analytic QPE distribution.
+
+Open the [personalized learning module](learning-module/index.html) in a browser for a physics refresher, worked examples, an interactive phase explorer, energy-estimation extensions, and a research path connecting quantum experiments with SRE experience. The [lab instructions](learning-module/README.md) explain how to reproduce its calculations and circuit checks.
 
 Read the [review and proposed roadmap](docs/modernization-review.md) for code findings, corrections to the physics discussion, and experiments we can choose together.
 
@@ -24,7 +26,7 @@ The main opportunities are:
 2. **Explain the full probability distribution:** distinguish finite register resolution, finite sampling, and physical noise instead of reporting only the most frequent result.
 3. **Extend the physics:** move from a known single-qubit phase gate to eigenstate superpositions and small Hamiltonians, while measuring computational cost.
 
-The suggested first milestone is a small, reproducible QPE example checked against its analytic distribution, followed by a corrected version of the paper's table. Algorithm variants and an educational interface are later possibilities, to be discussed before implementation.
+The learning module completes that first baseline at educational scale: a reproducible QPE example, a corrected ideal slice table, and a local interactive explorer. Its later Hamiltonian and reliability research exercises remain proposed work; external paper results and hardware experiments have not been reproduced here.
 
 ## License
 

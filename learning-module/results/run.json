@@ -1,0 +1,12 @@
+{
+  "phase_turns": 0.3,
+  "counting_qubits": 3,
+  "shots": 4096,
+  "seed": 2026,
+  "python": "3.14.3",
+  "model": "ideal QPE; samples from analytic probabilities",
+  "checks_passed": 235,
+  "qiskit_circuits_verified": true,
+  "expected_circular_error": 0.09123510631469477,
+  "qiskit": "2.5.2"
+}
